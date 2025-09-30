@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop - LUXE THREADS</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html">LUXE THREADS</a>
+            </div>
+            <div class="nav-menu" id="navMenu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="shop.html" class="nav-link active">Shop</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="page-title" data-aos="fade-up">Our Collection</h1>
+            <p class="page-subtitle" data-aos="fade-up" data-aos-delay="200">Discover premium fashion pieces crafted for discerning taste</p>
+        </div>
+    </section>
+
+    <!-- Shop Filters -->
+    <section class="shop-filters">
+        <div class="container">
+            <div class="filters-container" data-aos="fade-up">
+                <div class="filter-group">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="clothing">Clothing</button>
+                    <button class="filter-btn" data-filter="accessories">Accessories</button>
+                    <button class="filter-btn" data-filter="shoes">Shoes</button>
+                </div>
+                <div class="sort-group">
+                    <select class="sort-select">
+                        <option>Sort by: Featured</option>
+                        <option>Price: Low to High</option>
+                        <option>Price: High to Low</option>
+                        <option>Newest First</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Grid -->
+    <section class="products-section">
+        <div class="container">
+            <div class="products-grid" id="productsGrid">
+                <!-- Product 1 -->
+                <div class="product-card" data-category="clothing" data-aos="fade-up">
+                    <div class="product-image">
+                        <img src="https://images.pexels.com/photos/1536619/pexels-photo-1536619.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Silk Evening Dress">
+                        <div class="product-overlay">
+                            <button class="product-btn quick-view">Quick View</button>
+                            <button class="product-btn add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Silk Evening Dress</h3>
+                        <p class="product-price">$899</p>
+                        <div class="product-colors">
+                            <span class="color-option" style="background: #000"></span>
+                            <span class="color-option" style="background: #8B4513"></span>
+                            <span class="color-option" style="background: #2F4F4F"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="product-card" data-category="clothing" data-aos="fade-up" data-aos-delay="100">
+                    <div class="product-image">
+                        <img src="https://images.pexels.com/photos/1926769/pexels-photo-1926769.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Cashmere Blazer">
+                        <div class="product-overlay">
+                            <button class="product-btn quick-view">Quick View</button>
+                            <button class="product-btn add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Cashmere Blazer</h3>
+                        <p class="product-price">$1,299</p>
+                        <div class="product-colors">
+                            <span class="color-option" style="background: #2F4F4F"></span>
+                            <span class="color-option" style="background: #8B4513"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="product-card" data-category="accessories" data-aos="fade-up" data-aos-delay="200">
+                    <div class="product-image">
+                        <img src="https://images.pexels.com/photos/1152077/pexels-photo-1152077.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Leather Handbag">
+                        <div class="product-overlay">
+                            <button class="product-btn quick-view">Quick View</button>
+                            <button class="product-btn add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Leather Handbag</h3>
+                        <p class="product-price">$649</p>
+                        <div class="product-colors">
+                            <span class="color-option" style="background: #000"></span>
+                            <span class="color-option" style="background: #8B4513"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="product-card" data-category="shoes" data-aos="fade-up" data-aos-delay="300">
+                    <div class="product-image">
+                        <img src="https://images.pexels.com/photos/336372/pexels-photo-336372.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Designer Heels">
+                        <div class="product-overlay">
+                            <button class="product-btn quick-view">Quick View</button>
+                            <button class="product-btn add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Designer Heels</h3>
+                        <p class="product-price">$449</p>
+                        <div class="product-colors">
+                            <span class="color-option" style="background: #000"></span>
+                            <span class="color-option" style="background: #8B0000"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 5 -->
+                <div class="product-card" data-category="clothing" data-aos="fade-up" data-aos-delay="400">
+                    <div class="product-image">
+                        <img src="https://images.pexels.com/photos/1183266/pexels-photo-1183266.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Wool Coat">
+                        <div class="product-overlay">
+                            <button class="product-btn quick-view">Quick View</button>
+                            <button class="product-btn add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Wool Coat</h3>
+                        <p class="product-price">$1,599</p>
+                        <div class="product-colors">
+                            <span class="color-option" style="background: #2F4F4F"></span>
+                            <span class="color-option" style="background: #000"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 6 -->
+                <div class="product-card" data-category="accessories" data-aos="fade-up" data-aos-delay="500">
+                    <div class="product-image">
+                        <img src="https://images.pexels.com/photos/1040945/pexels-photo-1040945.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Silk Scarf">
+                        <div class="product-overlay">
+                            <button class="product-btn quick-view">Quick View</button>
+                            <button class="product-btn add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Silk Scarf</h3>
+                        <p class="product-price">$189</p>
+                        <div class="product-colors">
+                            <span class="color-option" style="background: #8B0000"></span>
+                            <span class="color-option" style="background: #2F4F4F"></span>
+                            <span class="color-option" style="background: #DAA520"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 7 -->
+                <div class="product-card" data-category="clothing" data-aos="fade-up" data-aos-delay="600">
+                    <div class="product-image">
+                        <img src="https://images.pexels.com/photos/1598505/pexels-photo-1598505.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Designer Jacket">
+                        <div class="product-overlay">
+                            <button class="product-btn quick-view">Quick View</button>
+                            <button class="product-btn add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Designer Jacket</h3>
+                        <p class="product-price">$899</p>
+                        <div class="product-colors">
+                            <span class="color-option" style="background: #000"></span>
+                            <span class="color-option" style="background: #2F4F4F"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 8 -->
+                <div class="product-card" data-category="accessories" data-aos="fade-up" data-aos-delay="700">
+                    <div class="product-image">
+                        <img src="https://images.pexels.com/photos/1464625/pexels-photo-1464625.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Luxury Watch">
+                        <div class="product-overlay">
+                            <button class="product-btn quick-view">Quick View</button>
+                            <button class="product-btn add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Luxury Watch</h3>
+                        <p class="product-price">$2,299</p>
+                        <div class="product-colors">
+                            <span class="color-option" style="background: #DAA520"></span>
+                            <span class="color-option" style="background: #C0C0C0"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 9 -->
+                <div class="product-card" data-category="shoes" data-aos="fade-up" data-aos-delay="800">
+                    <div class="product-image">
+                        <img src="https://images.pexels.com/photos/1598508/pexels-photo-1598508.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Leather Boots">
+                        <div class="product-overlay">
+                            <button class="product-btn quick-view">Quick View</button>
+                            <button class="product-btn add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Leather Boots</h3>
+                        <p class="product-price">$649</p>
+                        <div class="product-colors">
+                            <span class="color-option" style="background: #8B4513"></span>
+                            <span class="color-option" style="background: #000"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3D Showcase -->
+    <section class="shop-3d-showcase">
+        <div class="container">
+            <div class="showcase-content">
+                <div class="showcase-text" data-aos="fade-right">
+                    <h2>Experience Fashion in 3D</h2>
+                    <p>Explore our latest collection with interactive 3D models. See every detail, texture, and design element up close.</p>
+                    <a href="#" class="btn btn-primary">Try Virtual Fitting</a>
+                </div>
+                <div class="showcase-3d" data-aos="fade-left" id="showcase3D">
+                    <div class="product-showcase">
+                        <div class="showcase-item active">
+                            <img src="https://images.pexels.com/photos/1536619/pexels-photo-1536619.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Featured Product">
+                            <div class="product-details">
+                                <h4>Silk Evening Dress</h4>
+                                <p>$899</p>
+                            </div>
+                        </div>
+                        <div class="showcase-item">
+                            <img src="https://images.pexels.com/photos/1926769/pexels-photo-1926769.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Featured Product">
+                            <div class="product-details">
+                                <h4>Cashmere Blazer</h4>
+                                <p>$1,299</p>
+                            </div>
+                        </div>
+                        <div class="showcase-item">
+                            <img src="https://images.pexels.com/photos/1183266/pexels-photo-1183266.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Featured Product">
+                            <div class="product-details">
+                                <h4>Wool Coat</h4>
+                                <p>$1,599</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="showcase-controls">
+                        <button class="control-btn active" data-index="0"></button>
+                        <button class="control-btn" data-index="1"></button>
+                        <button class="control-btn" data-index="2"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>LUXE THREADS</h3>
+                    <p>Redefining luxury fashion for the modern connoisseur</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">Instagram</a>
+                        <a href="#" class="social-link">Facebook</a>
+                        <a href="#" class="social-link">Twitter</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Collections</h4>
+                    <ul>
+                        <li><a href="shop.html">New Arrivals</a></li>
+                        <li><a href="shop.html">Summer 2025</a></li>
+                        <li><a href="shop.html">Evening Wear</a></li>
+                        <li><a href="shop.html">Accessories</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Customer Care</h4>
+                    <ul>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="#">Size Guide</a></li>
+                        <li><a href="#">Shipping Info</a></li>
+                        <li><a href="#">Returns</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 LUXE THREADS. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/shop.js"></script>
+</body>
+</html>
