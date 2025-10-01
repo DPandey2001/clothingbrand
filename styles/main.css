@@ -460,7 +460,7 @@ body {
     border: 2px solid var(--white);
 }
 
-.btn-secondary:hover {
+.btn-secondary:hover { 
     background: var(--white);
     color: var(--primary-black);
 }
