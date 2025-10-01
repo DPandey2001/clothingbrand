@@ -456,7 +456,7 @@ body {
 
 .btn-secondary {
     background: transparent;
-    color: var(--white);
+    color: beige;
     border: 2px solid var(--white);
 }
 
