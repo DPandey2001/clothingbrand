@@ -365,7 +365,8 @@ body {
 }
 
 .title-line {
-    color: black;
+    color: #d4af37;
+    /* text-shadow:10px black; */
     display: block;
     opacity: 0;
     transform: translateY(50px);
